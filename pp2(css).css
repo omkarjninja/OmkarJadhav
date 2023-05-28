@@ -1,0 +1,675 @@
+@font-face {
+    font-family: secondfonts;
+    src: url("diploma.ttf");
+}
+@font-face {
+    font-family: myfonts;
+    src: url("Beckett.ttf");
+}
+@font-face {
+    font-family: thirdfonts ;
+    src: url("pricedow.ttf");
+}
+
+body{
+    background-color:#0D0D0D ;
+    overflow-x: hidden;
+}
+.heading{
+    color: white;
+    font-family: 'thirdfonts' ;
+    font-weight: 100;
+    text-align: center;
+}
+a{
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 2rem;
+}
+header h1{
+    font-weight: 100;
+}
+.line{
+    color: white;
+    opacity: 0.2;
+    width: 80%;
+}
+.text-content{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.second-text{
+    font-family: 'Italiana', serif;
+    font-size: 4rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.first-text{
+    font-family: 'Jost', sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.third-text{
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+}
+.image-div{
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+.image-main{
+    opacity: 0.5;
+}
+.main-image{
+    position: relative;
+}
+.image-text{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 450px;
+}
+.text{
+    position: absolute;
+    width: 20%;
+    color: white;
+    text-align: center;
+    border-left: 1px solid white;
+}
+.text4{
+    position: absolute;
+    left: 975px;
+    
+}
+.text4 a{
+    color: white;
+    font-size: 1.4rem;
+    padding-bottom: 5px;
+ }
+.text3{
+    position: absolute;
+    left: 625px;
+}
+.text2{
+    position: absolute;
+    left: 375px;
+}
+.text1{
+    position: absolute;
+    left: 50px;
+    border-left: 1px solid transparent;
+}
+.text h3{
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+.text h2{
+    font-family: 'Italiana', serif;
+    font-weight: 300;
+}
+.content-main{
+    width: 100%;
+}
+.content-first{
+    width: 100%;
+    color: white;
+}
+.head-text{
+    font-family: 'Italiana', serif;
+    font-size: 4rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+.para-text{
+    padding-top: 30px;
+    width: 80%;
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.story-text{
+    width: 80%;
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 40px;
+}
+.story{
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+.content-img{
+    
+    margin: 20 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content-second{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    color: white;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+}
+.left-side{
+    width: 50%;
+    font-family: 'Italiana', serif;
+    font-size: 3.5rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    border-right: 1px solid grey;
+}
+.left-side:hover{
+    background-color: white;
+}
+.exp{
+    color: white;
+}
+.right-side:hover{
+    background-color: white;
+}
+.result{
+    color: white;
+}
+.right-side{
+    width: 50%;
+    width: 80%;
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    padding-left: 25px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    line-height: 30px;
+    
+    padding-top: 20px;
+}
+.content-next{
+    width: 100%;
+    display: flex;
+}
+.prev{
+    width: 50%;
+}
+.next{
+    width: 50%;
+}
+.pre{
+    width: 25%;
+    height: 3rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 20px;
+    margin-right: 50%;
+    opacity: 30%;
+}
+.nex{
+    width: 25%;
+    height: 3rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 20px;
+    margin-left: 70%;
+   
+}
+.fa{
+    color: white;
+}
+.contact{
+    width: 100%;
+    height: 50vh;
+}
+.contact-upper{
+   margin-left: 30%;
+   margin-top: 10px;
+}
+.mail{
+    width: 30%;
+    height: 3rem;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding-right: 20px;
+    transition-delay: 2ms;
+    transition-duration: 3ms;
+    transition: ease-in-out;
+}
+.mail:hover{
+    background-color: black;
+    border: 1px solid white;
+}
+.mail a{
+    /* color: black;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem; */
+}
+.call a{
+     color: black;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.gmail a{
+    color: black;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.contact-lower-main{
+    width: 80%;
+   display: flex;
+   margin: 30px auto;
+}
+.logos{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: white;
+   
+   font-size: 2rem;
+   align-self: center;
+   padding-top: 14px;
+   padding-left: 18px;
+   margin-right: 5%;
+}
+.logos:first-child{
+    margin-left: 19%;
+}
+.logos:hover{
+    background-color: black;
+}
+.i1:hover{
+    color:white ;
+}
+.logos a{
+    text-decoration: none;
+    color: black;
+}
+.copyright{
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1.5px;
+    
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+}
+.others{
+    position: relative;
+}
+.up{
+    font-size: 8rem;
+    text-decoration: none;
+    position: absolute;
+    bottom: -30px;
+    left: 90%;
+    color: white;
+}
+.quote{
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.quote-img{
+
+}
+.quote-text{
+    color: white;
+    position: absolute;
+    top: 60px;
+    width: 80%;
+    font-family: 'Italiana', serif;
+    font-size: 4rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    left: 30px;
+}
+@media(max-width:960px){
+    .heading{
+        font-size: 1.5rem;
+    }
+    .text-content{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .second-text{
+        font-size: 2.2rem;
+        letter-spacing: 1.2px;
+    }
+    .first-text{
+        font-weight: 900;
+        font-size: 0.8rem;
+        letter-spacing: 1.2px;
+    }
+    .third-text{
+        font-size: 0.6rem;
+        letter-spacing: 1px;
+    }
+    .image-div{
+        width: 100%;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .image-main{
+        opacity: 0.5;
+        width: 100%;
+        height: 300px;
+    }
+    .main-image{
+        position: relative;
+    }
+    .image-text{
+        width: 100%;
+        display: flex;
+        position: absolute;
+        top:70%;
+    }
+    .text{
+        position: absolute;
+        width: 15%;
+        color: white;
+        text-align: center;
+        border-left: 1px solid white;
+        font-size: 0.5rem;
+    }
+    .text4{
+        position: absolute;
+        left: 70%;
+        
+    }
+    .text4 a{
+       color: white;
+       font-size: 0.8rem;
+       padding-bottom: 5px;
+       padding-left: 10px;
+    }
+    .text3{
+        position: absolute;
+        left: 50%;
+    }
+    .text2{
+        position: absolute;
+        left: 30%;
+    }
+    .text1{
+        position: absolute;
+        left:10%;
+        border-left: 1px solid transparent;
+    }
+    .text h3{
+        font-family: 'Jost', sans-serif;
+        font-weight: 600;
+    }
+    .text h2{
+        font-family: 'Italiana', serif;
+        font-weight: 300;
+    }
+    .content-main{
+        width: 100%;
+    }
+    .content-first{
+        width: 100%;
+        color: white;
+    }
+    .head-text{
+        font-family: 'Italiana', serif;
+        font-size: 3rem;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-align: center;
+    }
+    .para-text{
+        padding-top: 0px;
+        width: 80%;
+        font-family: 'Jost', sans-serif;
+        font-weight: 200;
+        font-size: 0.7rem;
+        letter-spacing: 1.2px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .story-text{
+        width: 80%;
+        font-family: 'Jost', sans-serif;
+        font-weight: 200;
+        font-size: 0.7rem;
+        letter-spacing: 1.2px;
+        text-transform: capitalize;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .content-img{
+        width: 100%;
+        height: 300px;
+        margin: 20 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .content-second{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        color: white;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        margin-bottom: 30px;
+    }
+    .left-side{
+        width: 50%;
+        font-family: 'Italiana', serif;
+        padding-top: 30%;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-align: center;
+        border-right: 1px solid grey;
+    }
+    .left-side:hover{
+        background-color: white;
+    }
+    .exp{
+        color: white;
+        text-align: center;
+    }
+    .right-side:hover{
+        background-color: white;
+    }
+    .result{
+        color: white;
+    }
+    .right-side{
+        width: 50%;
+        font-family: 'Jost', sans-serif;
+        height: 100%;
+        font-weight: 200;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        padding-left: 25px;
+        margin-bottom: 0px;
+        line-height: 18px;
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+    .quote{
+        margin-top: 30px;
+        width: 100%;
+        position: relative;
+        margin-bottom: 0px;
+    }
+    
+    .quote-img{
+     height: 200px;
+    }
+    .quote-text{
+        color: white;
+        position: absolute;
+        top: 5%;
+        width: 80%;
+        font-family: 'Italiana', serif;
+        font-size: 2rem;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        font-weight: 500;
+        left: 30px;
+    }
+    .name{
+        color: white;
+        margin: 20px 0px 20px 0px;
+        font-family: 'thirdfonts';
+        font-weight: 50;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .contact{
+        width: 100%;
+        height: 60vh;
+    }
+    .contact-upper{
+       margin-left: 10%;
+       margin-top: 30px;
+       margin-bottom: 20px;
+    }
+    .mail{
+        width: 45%;
+        height: 3rem;
+        border-radius: 30px;
+        background-color: white;
+        border: 1px solid black;
+        padding-right: 20px;
+        transition-delay: 2ms;
+        transition-duration: 3ms;
+        transition: ease-in-out;
+        overflow: hidden;
+    }
+    .gmail{
+        
+    }
+    .mail:hover{
+        background-color: black;
+        border: 1px solid white;
+    }
+    .mail a{
+        /* color: black;
+        font-family: 'Jost', sans-serif;
+        letter-spacing: 2px;
+        font-size: 1rem; */
+    }
+    .call a{
+         color: black;
+        font-family: 'Jost', sans-serif;
+        letter-spacing: 1px;
+        line-height: 0%;
+        font-size: 0.5rem;
+        font-weight: 700;
+        text-decoration: none;
+        padding-bottom: 10px;
+    }
+    .gmail a{
+        color: black;
+        font-family: 'Jost', sans-serif;
+        letter-spacing: 1px;
+        line-height: 0%;
+        font-size: 0.5rem;
+        font-weight: 700;
+        text-decoration: none;
+        padding-bottom: 10px;
+        text-decoration: none;
+    }
+    .contact-lower{
+        width: 70%;
+    }
+    .contact-lower-main{
+        width: 70%;
+       display: flex;
+       margin: 0%;
+    }
+    .logos{
+
+        width: 10%;
+        height: 20px;
+        border-radius: 5px;
+        background-color: white;
+       font-size: 0.75rem;
+       padding-right: 12px;
+       padding-bottom: 12px;
+       margin-left: 2px;
+    }
+    .logos:first-child{
+        margin-left: 1px;
+    }
+    .logos:last-child{
+        margin-right: 1px;
+    }
+    .logos:hover{
+        background-color: black;
+    }
+    .logos a{
+        font-size: 1.5rem;
+
+    }
+    .i1:hover{
+        color:white ;
+    }
+    .logos a{
+        text-decoration: none;
+        color: black;
+        margin-left: 1px;
+    }
+    .copyright{
+        font-family: 'Jost', sans-serif;
+        font-family: 200;
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 1rem;
+    }
+    .others{
+        position: relative;
+    }
+    .up{
+        display: none;
+    }
+
+}

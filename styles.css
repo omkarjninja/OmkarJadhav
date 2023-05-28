@@ -1,0 +1,903 @@
+/* Font define */
+@font-face {
+    font-family: secondfonts;
+    src: url("diploma.ttf");
+}
+@font-face {
+    font-family: myfonts;
+    src: url("Beckett.ttf");
+}
+@font-face {
+    font-family: thirdfonts ;
+    src: url("pricedow.ttf");
+}
+/* basic body n html and header */
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+body {
+    background-color: #F9F8F6;
+}
+header{
+    display: flex;
+}
+/* nav section */
+.headey{
+    margin-top:20px;
+    display: flex;
+    width: 100%;
+}
+
+.logo{
+    margin-left: 2px;
+    margin-top: 10px;
+    padding-right: 25%;
+
+}
+.nav-header{
+    list-style: none;
+    color: black;
+    display: flex;
+    margin-right: 50px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    font-family: 'secondfonts';
+    padding-right: 10px;
+    font-size: 2rem;
+}
+.nav-list a:not(:last-child){
+    margin-right: 30px;
+}
+.lab{
+    display: none;
+}
+#check{
+    z-index: 3;
+    display: none;
+}
+.hello{
+    width: 100%;
+    height: 50vh;
+}
+/* heading text */
+.first{
+    font-family: 'thirdfonts';
+    font-size: 5rem;
+    font-weight: 200;
+    margin-top: 70px;
+    margin-left: 40px;
+    text-transform: capitalize;
+    cursor: not-allowed;
+}
+.skills{
+    display: flex;
+    font-family: 'thirdfonts';
+    width: 100%;
+}
+.skill-set{
+    font-weight: 100;
+    font-size: 2rem;
+    margin-right: 20%;
+    text-align: center;
+    cursor:crosshair;
+    
+}
+.skill-set:first-child{
+    padding-left: 20%;
+    text-align: center;
+}
+.gify{
+    width: 100%;
+    height: 200vh;
+    
+}
+.box-gif{
+    margin: 30px auto 30px auto;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: black;
+    
+}
+/* projects section bars */
+.name{
+    background-color: black;
+    color: white;
+    margin: 20px 0px 20px 0px;
+    font-family: 'thirdfonts';
+    font-weight: 50;
+    font-size: 3rem;
+    text-align: center;
+}
+.projects{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+}
+.main-div{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    background-color: black;
+}
+.inner-div{
+    background-color: #F9F8F6;
+    width: 25%;
+    height: 10vh;
+}
+.inner-div button{
+   background-color: transparent;
+   color: black;
+   border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    border-radius: 0;
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 1;
+    color: white;
+    
+}
+/* project section content */
+.top-div{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    opacity: 0.8;
+    
+}
+.div-box{
+    width: 45%;
+    height: 450px;
+    border-radius: 10px;
+}
+.first-div{
+    margin-right:5%;
+    position: relative;
+}
+.second-div{
+    margin-left:5%;
+    position: relative;
+}
+.third-div{
+    position: relative;
+}
+.div-box2{
+    width: 100%;
+    height: 300px;
+}
+.title{
+    position: absolute;
+    top: 15px;
+    padding: 0%;
+    color: white;
+    text-shadow: 2px 1px black;
+    left: 15px;
+    font-family: 'thirdfonts';
+    font-weight: 30;
+}
+.sub-title{
+    display: none;
+    position: absolute;
+    top: 375px;
+    padding: 0%;
+    color: black;
+    width: 90%;
+    text-shadow:  1px 1px 1 #DBEDF3; ;
+    left:15px ;
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
+    background-color: white;
+}
+.sub-title2{
+    color: orange;
+    background-color: black;
+}
+.sub-title3{
+    color: #576CBC;
+    background-color: white;
+}
+.sub-title5 , .sub-title8 , .sub-title9 ,.sub-title10 , .sub-title11{
+    color: black;
+    background-color: white;
+    top: 225px;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+}
+/* more projects */
+.btm{
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'thirdfonts';
+    font-weight: 100;
+    opacity: 0.7;
+    text-decoration: none;
+}
+/* about section */
+.about-main{
+    margin-top: 20px;
+    width: 100%;
+    height: 100vh;
+}
+.about-image{
+    width: 40%;
+    margin: 30px auto;
+    text-align: center;
+}
+.about-heading{
+    position: relative;
+}
+.text1{
+    position: absolute;
+    top: 0px;
+    left: 530px;
+}
+.text2{
+   
+}
+.part1{
+    position: absolute;
+    top: 57px;
+    left: 360px;
+}
+.part2{
+    position: absolute;
+    left: 560px;
+    top: 48px;
+}
+.about-paragraph{
+    position: relative;
+}
+.para1{
+    width: 30%;
+    position: absolute;
+    top: 120px;
+    left: 460px;
+    font-family: 'Jost', sans-serif;
+}
+.para2{
+    width: 30%;
+    position: absolute;
+    top: 120px;
+    left: 860px;
+    font-family: 'Jost', sans-serif;
+}
+/* ending image with quote */
+.quote{
+    width: 100%;
+    position: relative;
+    height: 70vh;
+}
+
+.quote-img{
+
+}
+
+.quote-text{
+    position: absolute;
+    top: 75px;
+    width: 80%;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    left: 30px;
+}
+/* contact section */
+.contact{
+    width: 100%;
+    height: 50vh;
+}
+.contact-upper{
+   margin-left: 30%;
+   margin-top: 50px;
+}
+.mail{
+    width: 30%;
+    height: 3rem;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding-right: 20px;
+    transition-delay: 2ms;
+    transition-duration: 3ms;
+    transition: ease-in-out;
+}
+.mail:hover{
+    background-color: black;
+    border: 1px solid white;
+}
+.mail a{
+    /* color: black;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem; */
+}
+.call a{
+     color: black;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.gmail a{
+    color: black;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.contact-lower-main{
+    width: 80%;
+   display: flex;
+   margin: 30px auto;
+}
+.logos{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: white;
+   
+   font-size: 2rem;
+   align-self: center;
+   padding-top: 14px;
+   padding-left: 18px;
+   margin-right: 5%;
+}
+.logos:first-child{
+    margin-left: 19%;
+}
+.logos:hover{
+    background-color: black;
+}
+.i1:hover{
+    color:white ;
+}
+.logos a{
+    text-decoration: none;
+    color: black;
+}
+.copyright{
+    font-family: 'Jost', sans-serif;
+    font-family: 200;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.others{
+    position: relative;
+}
+/* go up */
+.up{
+    font-size: 8rem;
+    text-decoration: none;
+    position: absolute;
+    bottom: -30px;
+    left: 90%;
+    color: black;
+}
+/* project section main hover effects */
+.first-div img {
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.first-div :hover img{
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+.second-div img{
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.second-div :hover img{
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+.third-div img{
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.third-div :hover img{
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+/* about section hover effects */
+.about-image:hover{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.about-image{
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+/* responsive nav bar i.e taken from event.html/css */
+.nav-header{
+   display: flex;
+}
+.title{
+    z-index: 1;
+}
+.sub-title{
+    z-index: 1;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    color: azure;
+    
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.nav a{
+    color: black;
+    font-size: 2rem;
+    text-decoration:none ;
+    font-family: 'secondfonts';
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding: 2px 10px ;
+    border-radius: 25px;
+    transition: 0.25s;
+    transition-property: background;
+}
+.nav a:not(:last-child){
+    margin-right: 30px;
+}
+header .nav a:hover{
+   background:white;
+}
+/*  */
+label{
+    display: none;
+}
+label .menu-btn{
+    display: none;
+}
+label .close-btn{
+    display: none;
+}
+#check{
+    z-index: 3;
+    display: none;
+}
+/* responsive mine */
+
+@media(max-width:960px)
+{
+    header .nav{
+        display: none;
+    }
+    label .menu-btn{
+        display: block;
+    }
+label{
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.25s;
+    transition-property: color;
+    color: black;
+
+}
+.nav a{
+    font-size: 1.4rem;
+}
+label:hover{
+    color: rgb(216, 216, 216,0.9);;
+}
+label .close-btn{
+    display: none;
+}
+#check:checked~header .nav{
+    
+        z-index: 2;
+        position: fixed;
+        background:rgb(216, 216, 216,0.9);
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+}
+#check:checked~header .nav a{
+    font-weight: 700;
+    margin-right: 0;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+
+}
+#check:checked~header label .menu-btn{
+    display: none;
+}
+#check:checked ~ header label .close-btn{
+    z-index: 2;
+    display: block;
+    position: fixed;
+    transition: 0.2s;
+    transition-property: color;
+  
+}
+#check:checked ~ header label .close-btn:hover{
+    color: white;
+}
+label .menu-btn{
+    position: absolute;
+}
+.first{
+    font-family: 'thirdfonts';
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    cursor: crosshair;
+}
+.skills{
+    margin-top: 10px;
+    display: block;
+    font-family: 'thirdfonts';
+    width: 100%;
+    margin-bottom: 20px;
+}
+.skill-set{
+    font-weight: 100;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    cursor:crosshair;
+    
+}
+.skill-set:first-child{
+    padding-left: 0px;
+    text-align: center;
+}
+.gify{
+    width: 100%;
+    height: 200vh;
+    
+}
+.box-gif{
+    border: 20px solid black;
+    text-align: center;
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    width:200px ;
+    height:157.5px;
+    
+}
+.inner-div button{
+     text-align: center;
+     width: 100%;
+     height: 10vh;
+     border-radius: 0;
+     font-size: 0.7rem;
+ }
+ /* about section */
+.about-main{
+    margin-top: 20px;
+    width: 100%;
+    height: 110vh;
+}
+.about-image{
+    width: 80%;
+    margin: 0;
+}
+.about-heading{
+    position: relative;
+}
+.text1{
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+.text2{
+   
+}
+.part1{
+    position: absolute;
+    top: 45px;
+    left: 120px;
+}
+.part2{
+    position: absolute;
+    left: 70px;
+    top: 78px;
+}
+.about-paragraph{
+    position: relative;
+}
+.para1{
+    width: 30%;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    font-family: 'Jost', sans-serif;
+    font-size: 0.75rem;
+}
+.para2{
+    width: 30%;
+    position: absolute;
+    top: 120px;
+    left: 240px;
+    font-family: 'Jost', sans-serif;
+    font-size: 0.75rem;
+}
+/* ending image with quote */
+.quote{
+    width: 100%;
+    position: relative;
+    height: 30vh;
+    margin-bottom: 20px;
+}
+.quote-img{
+    height: 200px;
+    padding-bottom: 20px;
+}
+.quote-text{
+    position: absolute;
+    top: 45px;
+    width: 80%;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    left: 30px;
+    font-size: 0.75rem;
+}
+/* contact section */
+.contact{
+    width: 100%;
+    height: 60vh;
+}
+.contact-upper{
+   margin-left: 10%;
+   margin-top: 30px;
+   margin-bottom: 10px;
+}
+.mail{
+    width: 45%;
+    height: 3rem;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding-right: 20px;
+    transition-delay: 2ms;
+    transition-duration: 3ms;
+    transition: ease-in-out;
+    overflow: hidden;
+}
+.gmail{
+    
+}
+.mail:hover{
+    background-color: black;
+    border: 1px solid white;
+}
+.mail a{
+    /* color: black;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem; */
+}
+.call a{
+     color: black;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+    line-height: 0%;
+    font-size: 0.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.gmail a{
+    color: black;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+    line-height: 0%;
+    font-size: 0.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.contact-lower-main{
+    width: 50%;
+   display: flex;
+   margin: 0%;
+}
+.logos{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+   font-size: 0.75rem;
+   padding-right: 20px;
+   margin-left: 0px;
+   padding-bottom: 30px;
+   margin-bottom: 10px;
+   margin-left: 2px;
+}
+.logos:first-child{
+    margin-left: 1px;
+}
+.logos:hover{
+    background-color: black;
+}
+.i1:hover{
+    color:white ;
+}
+.logos a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1px;
+}
+.copyright{
+    font-family: 'Jost', sans-serif;
+    font-family: 200;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 1rem;
+}
+.others{
+    position: relative;
+}
+.up{
+    display: none;
+}
+.img1 , .img2 , .img3,.img4,.img6,.img7{
+    width: 225px;
+    height: 225px;
+}
+.sub-title{
+    top: 140px;
+    font-size: 0.75rem;
+    display: block;
+    padding: 0%;
+    color: black;
+    width: 80%;
+    text-shadow:  1px 1px 1 #DBEDF3; ;
+    left:25px ;
+    font-family: 'Jost', sans-serif;
+    font-weight: 00;
+    background-color: white;
+    opacity: 0;
+}
+.top-div1,.top-div2,.top-div4{
+    height: 250px;
+}
+.img5,.img8,.img9,.img10,.img11,.img12{
+    height: 150px;
+}
+.sub-title5{
+    top: 110px;
+}
+.top-div3,.top-div5,.top-div6,.top-div7,.top-div8{
+    height: 175px;
+}
+.top-div{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    opacity: 0.8;
+    
+}
+.first-div img {
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+.second-div img{
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+.third-div img{
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+.div-box{
+    width: 45%;
+    height: 450px;
+    border-radius: 10px;
+}
+.first-div{
+    margin-left: 10px;
+    margin-right:10px;
+    position: relative;
+}
+.second-div{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+}
+
+
+
+
+
+
+
+/* <-- Text Animation--> */
+.marquee-w {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 140px;
+    top: 15%;
+    
+    transform: translate(0%, -50%);
+    overflow: hidden;
+}
+.marquee {
+    position: absolute;
+    display: block;
+    margin: auto auto;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 100%;
+    height: 100%;
+}
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    font-family: 'secondfonts';
+    text-align: center;
+    /* -webkit-text-stroke: 1px white; */
+    color: black;
+    opacity: 0.75;
+    white-space: nowrap;
+    min-width: 100%;
+    height: 100%;
+    line-height: 140px;
+    font-size: 85px;
+    animation: marquee 10s linear infinite;
+}
+.marquee2 span {
+    animation-delay: 5s;
+}
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
